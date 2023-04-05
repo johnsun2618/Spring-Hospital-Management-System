@@ -3,10 +3,12 @@ package com.example.hospital.management;
 public class Patient {
 
     private int patientId;
-    private String name;
-    private String disease;
-    private int age;
 
+    private String name;
+
+    private String disease;
+
+    private int age;
 
     public Patient(int patientId, String name, String disease, int age) {
         this.patientId = patientId;
@@ -46,6 +48,7 @@ public class Patient {
     public void setAge(int age) {
         this.age = age;
     }
+
 }
 
 
